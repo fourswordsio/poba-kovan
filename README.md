@@ -24,13 +24,13 @@ Endusers verify their products & claim POBA NFT by entering their license key re
 
 What you need to build this dApp
 X. Rest API + API Key with read-only access
-  - For demonstration purposes a pobatag.com api key is provided below.
+  - For demonstration purposes a pobatag.com api key is provided
   2. Familiarity with deploying SmartContracts using Remix IDE or Truffle to compile. 
 X. ERC721 SmartContract v0.6.6
 X. POBA Chainlinked consumer contract v0.6.6
 X. Chainlink Oracle w/ POBA adapter and or JOB script creation. 
   - You can use FourSwords Kovan Chainlink node for testing. 
 X. MetaMask Browser Wallet (https://www.metamask.io)
-X. Kovan testnet LINK
-X. Kovan testnet ETH
+X. Kovan testnet LINK  https://kovan.chain.link
+X. Kovan testnet ETH   Best option is using gitter chat room. Just post your Eth address in chat https://gitter.im/kovan-testnet/faucet
 
