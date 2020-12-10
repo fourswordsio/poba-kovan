@@ -37,8 +37,8 @@ Endusers verify their products & claim POBA NFT by entering their license key re
 
 4. POBA Chainlinked consumer contract v0.6.6
 
-5. Chainlink Oracle w/ POBA adapter and or JOB script creation. 
-  - You can use FourSwords Kovan Chainlink node for testing. 
+5. Chainlink Oracle w/ POBA adapter
+  - You can use FourSwords Kovan Chainlink node for testing. (Oracle: | Job ID:
 
 6. MetaMask Browser Wallet (https://www.metamask.io)
 
