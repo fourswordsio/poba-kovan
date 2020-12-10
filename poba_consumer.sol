@@ -4,7 +4,7 @@ import "https://github.com/smartcontractkit/chainlink/blob/develop/evm-contracts
 import "https://github.com/smartcontractkit/chainlink/blob/develop/evm-contracts/src/v0.4/vendor/Ownable.sol";
 import './pobaerc721.sol';
 
-contract YouHaveToDoItAlone5 is ChainlinkClient, Ownable, POBAasset {
+contract POBA is ChainlinkClient, Ownable, POBAasset {
   uint256 constant PAYMENT = 1 * LINK;
   bytes32 constant jobId = bytes32("c21ce5725bbd4f4a8aaf1aff31a1ad65");
   uint256 public orderID;
@@ -24,9 +24,7 @@ contract YouHaveToDoItAlone5 is ChainlinkClient, Ownable, POBAasset {
 {
   orderID =0;  
   Chainlink.Request memory req = buildChainlinkRequest(jobId, this, this.fulfillorderId.selector);
-   req.add("get", "https://www.pobatag.com/wp-json/lmfwc/v2/licenses/");
-req.add("endpoint", _licenseKey);
-req.add("queryParams", "/?consumer_key=ck_de406695e5fd6c1c8b31affe38d3777836cd8b39&consumer_secret=cs_4b86569fe912baf6fb666af7ed05c2e7ff11a4d5/");
+  req.add("endpoint", _licenseKey);
   req.add("copyPath", "data.orderId");
   sendChainlinkRequest( req, PAYMENT);
 }
